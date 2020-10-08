@@ -1,0 +1,146 @@
+name: Sabq
+description: mobile app for competetions
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.2.1+10.20.10
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^0.5.6
+  provider: ^4.0.0
+  search_choices: ^1.0.17
+  dotted_border: ^1.0.5
+  rflutter_alert: ^1.0.3
+  http: ^0.12.2
+  file_picker: ^1.12.0
+  flutter_spinkit: ^4.1.1+1
+  pull_to_refresh: ^1.5.8
+  image_cropper: ^1.2.3
+  path: ^1.6.4
+  audioplayers: ^0.15.1
+  stop_watch_timer: ^0.5.0+1
+  flutter_launcher_icons: ^0.7.4
+  intl_phone_number_input: ^0.4.6+2
+  image_picker: ^0.6.7+7
+  url_launcher: ^5.5.2
+  fluttertoast: ^4.0.1
+  video_player: ^0.10.11+2
+  chewie: ^0.9.10
+  country_code_picker: ^1.4.0
+  flutter_uploader: ^1.2.0
+  pin_code_fields: ^3.1.2
+  devicelocale: ^0.2.1
+  dropdown_search: ^0.4.4
+  percent_indicator: ^2.1.5
+  video_thumbnail: ^0.2.2
+  awesome_dialog: ^1.1.3
+  searchable_dropdown: ^1.1.3
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+flutter_icons:
+  image_path: "assets/icons/icon.png"
+  android: true
+  ios: true
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/imgs/user.png
+    - assets/imgs/competitor.png
+    - assets/imgs/logo.png
+    - assets/imgs/email.png
+    - assets/imgs/lock.png
+    - assets/imgs/list.png
+    - assets/imgs/judge.png
+    - assets/imgs/info.png
+    - assets/imgs/user-profile.png
+    - assets/imgs/phone-profile.png
+    - assets/imgs/logout.png
+    - assets/imgs/avatar.png
+    - assets/imgs/cup-footer.png
+    - assets/imgs/first-cup.png
+    - assets/imgs/second-cup.png
+    - assets/imgs/third-cup.png
+    - assets/imgs/video.png
+    - assets/imgs/audio.png
+    - assets/imgs/profile-img.png
+    - assets/imgs/world.png
+    - assets/imgs/card-image.png
+    - assets/imgs/bg-img.png
+    - assets/imgs/gender.png
+    - assets/imgs/mobile.png
+    - assets/imgs/title.png
+    - assets/imgs/about.png
+    - assets/imgs/player.png
+    - assets/imgs/message-success.png
+    - assets/imgs/empty-email.png
+    - assets/imgs/success.png
+    - assets/imgs/bank.png
+    - assets/imgs/eye.png
+    - assets/imgs/pause.png
+    - assets/imgs/user-inactive.png
+    - assets/imgs/rating-star.png  
+    - assets/imgs/comment.png
+    - assets/imgs/empty-competition.png
+    - assets/imgs/evaluation-done.png
+    - assets/imgs/account-number.png
+    - assets/imgs/bubble-list.png
+    - assets/imgs/bubble-list-inactive.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: droid
+      fonts:
+        - asset: assets/fonts/ArbFONTS-DroidKufi-Regular.ttf
+          style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
